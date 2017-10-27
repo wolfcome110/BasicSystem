@@ -82,7 +82,7 @@
     <Compile Include="03 Entity\SystemManage\UserEntity.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NFine.Code\Common.csproj">
+    <ProjectReference Include="..\Common\Common.csproj">
       <Project>{db19ce03-c307-43fe-a209-08aa4ae10e21}</Project>
       <Name>Common</Name>
     </ProjectReference>

@@ -599,19 +599,19 @@
     <None Include="Properties\PublishProfiles\NFine.Framework.Release.pubxml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NFine.Application\Application.csproj">
+    <ProjectReference Include="..\Application\Application.csproj">
       <Project>{f2035ee2-b73d-4fb8-a433-cab465de6a2a}</Project>
       <Name>Application</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NFine.Code\Common.csproj">
+    <ProjectReference Include="..\Common\Common.csproj">
       <Project>{db19ce03-c307-43fe-a209-08aa4ae10e21}</Project>
       <Name>Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NFine.Domain\Domain.csproj">
+    <ProjectReference Include="..\Domain\Domain.csproj">
       <Project>{7dc886cd-b8a0-44e8-aadd-57fcb0cfecb8}</Project>
       <Name>Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NFine.Mapping\Mapping.csproj">
+    <ProjectReference Include="..\Mapping\Mapping.csproj">
       <Project>{4e642cbe-f6c5-4cb9-9474-6b349652fe77}</Project>
       <Name>Mapping</Name>
     </ProjectReference>
