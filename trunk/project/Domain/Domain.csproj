@@ -86,7 +86,7 @@
       <Project>{db19ce03-c307-43fe-a209-08aa4ae10e21}</Project>
       <Name>Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NFine.Data\Repository.Data.csproj">
+    <ProjectReference Include="..\Repository.Data\Repository.Data.csproj">
       <Project>{f71003e8-a836-48f4-9df6-df9095cebd18}</Project>
       <Name>Repository.Data</Name>
     </ProjectReference>

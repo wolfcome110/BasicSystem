@@ -59,16 +59,15 @@
       <Project>{db19ce03-c307-43fe-a209-08aa4ae10e21}</Project>
       <Name>Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NFine.Data\Repository.Data.csproj">
-      <Project>{f71003e8-a836-48f4-9df6-df9095cebd18}</Project>
-      <Name>Repository.Data</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Domain\Domain.csproj">
       <Project>{7dc886cd-b8a0-44e8-aadd-57fcb0cfecb8}</Project>
       <Name>Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Repository.Data\Repository.Data.csproj">
+      <Project>{f71003e8-a836-48f4-9df6-df9095cebd18}</Project>
+      <Name>Repository.Data</Name>
+    </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

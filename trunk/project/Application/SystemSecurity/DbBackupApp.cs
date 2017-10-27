@@ -45,6 +45,7 @@ namespace Application.SystemSecurity
             dbBackupEntity.F_Id = Helper.GuId();
             dbBackupEntity.F_EnabledMark = true;
             dbBackupEntity.F_BackupTime = DateTime.Now;
+            dbBackupEntity.F_CreatorTime = DateTime.Now;
             service.ExecuteDbBackup(dbBackupEntity);
         }
     }
